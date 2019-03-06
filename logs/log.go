@@ -27,6 +27,7 @@ type Log interface{
 	info(s string)
 	warn(s string)
 	error(s string)
+	debug(s string)
 	trace(s string)
 }
 
